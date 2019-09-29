@@ -98,7 +98,7 @@
                 </executions>
             </plugin>
             <!-- 生成doc文档 -->
-            <!--<plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.1.1</version>
@@ -106,6 +106,7 @@
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>
+                        <phase>install</phase>
                         <goals>
                             <goal>jar</goal>
                         </goals>
@@ -113,10 +114,9 @@
                 </executions>
                 <configuration>
                     <source>1.6</source>
-                    <target>1.6</target>
                     <encoding>UTF-8</encoding>
                 </configuration>
-            </plugin>-->
+            </plugin>
         </plugins>
     </build>
 </project>

@@ -21,8 +21,6 @@ import org.springframework.stereotype.Component;
 /**
  * @author brucidshan
  * @version 1.0
- * @see [相关类/方法]（可选）
- * @since [产品/模块版本] （可选）
  */
 @Aspect 
 @Component
