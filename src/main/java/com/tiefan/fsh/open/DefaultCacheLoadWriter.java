@@ -23,7 +23,6 @@ import org.ehcache.spi.loaderwriter.CacheLoaderWriter;
  *
  * @author brucidshan
  * @version 1.0
- * @see〈LoadWriter缺省实现〉
  */
 public class DefaultCacheLoadWriter<K, V> implements CacheLoaderWriter<K, V> {
 
